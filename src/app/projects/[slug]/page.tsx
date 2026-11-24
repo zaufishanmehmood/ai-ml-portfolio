@@ -1,6 +1,8 @@
 
 import { notFound } from "next/navigation";
 
+export const instant = false;
+
 const projectDetails = [
   {
     slug: "iris-flower-classification",
